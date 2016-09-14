@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"release": "git checkout master && merge staging && push;",
+		"release": "git checkout master && git merge staging && git push;",
 		"sass": "sass -w css/sass/main.sass:css/main.css"
 	}
 }
