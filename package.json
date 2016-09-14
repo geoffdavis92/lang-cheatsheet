@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"sass": "sass -w css/sass/main.sass:css/main.css"
+	}
+}

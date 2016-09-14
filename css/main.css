@@ -1,0 +1,21 @@
+footer {
+  text-align: center; }
+
+table {
+  width: 100%; }
+  table td, table th {
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666; }
+    table td:first-of-type, table th:first-of-type {
+      border-left: 1px solid #666;
+      width: auto; }
+  table th {
+    border-top: 1px solid #666; }
+  table td {
+    padding: 0.5em; }
+  table.inner td, table.inner th, table.inner td:first-of-type, table.inner th:first-of-type {
+    border: none; }
+  table.inner td:first-of-type {
+    text-align: right; }
+
+/*# sourceMappingURL=main.css.map */

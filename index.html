@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Language Cheatsheet by Geoff Davis</title>
+</head>
+<body>
+	<h1>Programming Language Cheatsheet</h1>
+	<table cellpadding="0" cellspacing="0">
+		<thead>
+			<th>Principle</th>
+			<th>Javascript</th>
+			<th>PHP</th>
+			<th>R</th>
+			<th>Ruby</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>variable<br>declaration</td>
+				<td>
+					<table class="inner">
+						<tr>
+							<td><em>block-scoped</em>:</td>
+							<td><code>let varName = <em>variable</em></code></td>
+						</tr>
+						<tr>
+							<td><em>standard</em>:</td>
+							<td><code>var varName = <em>variable</em></code></td>
+						</tr>
+						<tr>
+							<td><em>constant</em>:</td>
+							<td><code>const varName = <em>variable</em></code></td>
+						</tr>
+					</table>
+				</td>
+				<td><code>
+					$var_name = {variable}
+				</code></td>
+				<td><code>
+					varName <- {variable}
+				</code></td>
+				<td><code>
+					var_name = {variable}
+				</code></td>
+			</tr>
+			<tr>
+				<td>function<br>statement</td>
+				<td><pre><code>function myFn(x,y) { <br>  return;<br>}</code></pre></td>
+				<td><pre><code>function myFn($x,$y) { <br>  return;<br>}</code></pre></td>
+				<td><pre><code>myFn <- function(x,y) { <br>  return(<em>obj</em>)<br>}</code></pre></td>
+				<td><pre><code>def myFn(x,y)<br>  return<br>end</code></pre></td>
+			</tr>
+			<tr>
+				<td>
+					array
+				</td>
+				<td>
+					<pre><code>var myArr = [1,2,3];</code></pre>
+				</td>
+				<td>
+					<pre><code>$myArr = array(1,2,3);</code></pre>
+				</td>
+				<td>
+					<pre><code></code></pre>
+				</td>
+				<td>
+					<pre><code></code></pre>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<footer>
+		<p>&copy;2016 <a href="/">Geoff Davis</a> | MIT Licensed.</p>
+	</footer>
+	<link rel="stylesheet" href="css/main.css">
+</body>
+</html>
